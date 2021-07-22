@@ -28,7 +28,7 @@ class CalculatePi {
     
     coordinates.forEach(({x, y}) => {
       const distance = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
-      console.log(distance);
+      
       if(distance < 1) {
         inside_the_circle++;
       } else {
